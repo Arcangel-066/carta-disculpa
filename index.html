@@ -138,19 +138,17 @@
     <article class="card">
       <div class="heart" aria-hidden="true">♥</div>
       <h1>Quería pedirte perdón</h1>
-      <p class="subtitle">A veces el tiempo nos ayuda a entender lo que antes no supimos expresar.</p>
+      <p class="subtitle">Quiero expresar un poco de lo que siento en esta carta.</p>
       <hr class="rule">
       <div class="letter">
         <p>Hola, tú. ♥</p>
         <p>Ha pasado un tiempo y he tenido espacio para pensar en las cosas, en lo que pasó y también en aquello que pude haber hecho de una manera diferente.</p>
-        <p>Quiero pedirte perdón por haberte lastimado, por mis errores y por las cosas que no supe manejar bien. No te escribo para justificarme ni para hacer como si nada hubiera pasado. Solo quiero reconocer mi parte y decirte que lo siento de corazón.</p>
-        <p>Extraño poder hablar contigo, saber cómo estás y compartir esas pequeñas cosas que antes parecían tan normales. No espero que todo vuelva a ser como antes de un momento a otro, ni quiero presionarte a responder.</p>
-        <p>Me gustaría que, cuando te sientas a gusto y si tú también lo deseas, pudiéramos volver a hablar con calma. Sin reproches, sin expectativas enormes; simplemente empezar por una conversación sincera y ver cómo nos sentimos.</p>
-        <p>Si todavía necesitas tiempo o prefieres mantener tu distancia, voy a respetarlo. Quería que supieras lo que siento y dejar abierta la puerta, sin exigirte que la cruces.</p>
-        <p class="signoff">Cuídate mucho. Ojalá algún día podamos hablar de nuevo. ♥</p>
+        <p>Quiero pedirte perdón por haberte lastimado, por mis errores y por las cosas que no supe manejar bien.</p>
+        <p>Extraño poder hablar contigo, saber cómo estás y compartir esas pequeñas cosas que antes parecían tan normales. No espero que todo vuelva a ser como antes de un momento a otro.</p>
+        <p>Si todavía necesitas tiempo o prefieres mantener tu distancia, voy a respetarlo. Quería que supieras lo que siento y dejar abierta la puerta, para que pases un rato.</p>
+        <p class="signoff">Ojalá aceptes y podamos hablar de nuevo. ♥</p>
       </div>
     </article>
-    <p class="note">No hace falta responder ahora. Estas palabras llegan sin presión, con cariño y respeto.</p>
     <div class="actions">
       <a class="whatsapp-button" id="whatsappBtn" href="#" target="_blank" rel="noopener noreferrer">
         Sí, hablemos <span aria-hidden="true">♥</span>
@@ -161,7 +159,7 @@
     (() => {
       // Número de WhatsApp con código de país, solo dígitos.
       const WHATSAPP_NUMBER = "573222291007";
-      const message = "Hola ❤️. Leí tu carta y sí, me gustaría que volviéramos a hablar. Gracias por escribirme y por tus palabras. Podemos empezar con una conversación tranquila. 🩷";
+      const message = "Hola. Leí tu carta y sí, me gustaría hablar. Gracias por escribirme y por tus palabras. Podemos empezar con una conversación tranquila. 🩷";
       const link = new URL("https://api.whatsapp.com/send");
       link.searchParams.set("phone", WHATSAPP_NUMBER);
       link.searchParams.set("text", message);
